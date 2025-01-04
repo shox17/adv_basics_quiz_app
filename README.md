@@ -17,3 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 # quiz_app
 # adv_basics_quiz
 # quiz_app
+# simple_quiz_app
