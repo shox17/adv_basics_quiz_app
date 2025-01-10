@@ -1,8 +1,20 @@
+# Ensure Dart files are recognized as Dart
 *.dart linguist-language=Dart
-src/**/*.cpp linguist-detectable=false 
-include/**/*.h linguist-detectable=false
-*.cmake linguist-detectable=false 
-CMakeLists.txt linguist-detectable=false 
-*.swift linguist-detectable=false 
-*.html linguist-detectable=false 
-*.c linguist-detectable=false
+
+# Mark HTML files as vendored
+*.html linguist-vendored
+
+# Ignore C++ files by marking as vendored
+*.cpp linguist-vendored
+*.h linguist-vendored
+
+# Ignore CMake files by marking as vendored
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+
+# Ignore Swift files by marking as vendored
+*.swift linguist-vendored
+
+# Ignore C files by marking as vendored
+*.c linguist-vendored
+*.h linguist-vendored
